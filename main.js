@@ -9,6 +9,6 @@ function hello()
       document.getElementById("demo").innerHTML = this.responseText;
     }
   };
-  xhttp.open("GET", "https://artnavsegda.github.io/hello.txt", false);
+  xhttp.open("GET", "https://artnavsegda.github.io/hello.txt", true);
   xhttp.send("hello");
 }
